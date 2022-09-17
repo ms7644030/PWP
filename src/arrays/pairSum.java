@@ -9,7 +9,7 @@ import java.util.List;
 public class pairSum {
 
 	// Method 1 : Implementation using BFA(Brute force Approach) --> [Time
-	// complexity:- O(N) &
+	// complexity:- O(N*N) &
 	// Auxiliary Space:- O(1)]
 
 	public static List<Integer> pairsumBFA(List<Integer> arr, int Sum) {
