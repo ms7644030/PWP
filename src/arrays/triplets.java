@@ -7,6 +7,9 @@ import java.util.List;
 
 public class triplets {
 
+	// Implementation using Sorting and two pointer approach --> [Time complexity:-
+	// O(N*N) - > O(NlogN) for sorting + O(N*N)
+
 	public static List<List<Integer>> tripletsUsingtwoPointer(List<Integer> arr, int Sum) {
 
 		List<List<Integer>> result = new ArrayList<>();
