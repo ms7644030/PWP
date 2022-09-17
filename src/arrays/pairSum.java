@@ -20,7 +20,7 @@ public class pairSum {
 
 			for (int j = i + 1; j < arr.size(); j++) {
 
-				// checking for conditionPlayWithProblems
+				// checking for condition
 				if (arr.get(i) + arr.get(j) == Sum) {
 
 					result.add(arr.get(i));
